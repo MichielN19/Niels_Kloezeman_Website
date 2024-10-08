@@ -115,6 +115,7 @@ body {
    .kraan-plaatje-tekst-container {
       flex-wrap: wrap;
    }
+
 }
 
 footer {
@@ -168,6 +169,7 @@ footer {
 
 .contact-container>p {
    font-size: 36px;
+   padding: 10px;
 }
 
 .btn {
@@ -193,8 +195,27 @@ footer {
    font-size: 35px;
 }
 
-
-
+.telefoon-footer-container {
+   height: 100%;
+   width: 100%;
+   display: none;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
+   padding: 20px 0;
+} 
+.telefoon-footer-container h2 {
+   margin: 0;
+}
+.contact-btn {
+   background-color: #f4c032;
+   color: black;
+}
+.contact-btn:hover {
+   background-color: black;
+   color: white;
+}
 
 @media screen and (max-width: 550px) {
 
@@ -203,5 +224,20 @@ footer {
    }
    .hidden-phone {
       display: initial;
+
+   }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+   .footer-container {
+      display: none;
+   }
+   footer {
+      height: max-content;
+   }
+   .telefoon-footer-container {
+      display: flex;
    }
 }
