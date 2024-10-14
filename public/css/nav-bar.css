@@ -4,6 +4,10 @@ nav {
    background-color: black;
 }
 
+.active-tab {
+   color: white;
+}
+
 nav div {
    width: 100%;
    height: 100%;
@@ -82,3 +86,5 @@ nav div a:first-child {
       width: 100%;
    }
 }
+
+

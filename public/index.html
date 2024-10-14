@@ -19,14 +19,14 @@
     <nav>
       <div class="sidebar">
          <a class="close-icon" href="#" onclick="CloseSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
-         <a href="/">Home</a>
+         <a class="active-tab" href="/">Home</a>
          <a href="/wat-ik-doe">Wat ik doe</a>
          <a href="/contact">Contact</a>
       </div>
 
       <div>
          <a class="other-font" href="/"><img src="/images/Logo-Licht.png" alt=""></a>
-         <a class="hide-on-mobile" href="/">Home</a>
+         <a class="active-tab hide-on-mobile" href="/">Home</a>
          <a class="hide-on-mobile" href="/wat-ik-doe">Wat ik doe</a>
          <a class="hide-on-mobile" href="/contact">Contact</a>
          <a class="menu-icon other-font" onclick="OpenSidebar()" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
@@ -75,7 +75,7 @@
           quis, vehicula efficitur est. Nulla rutrum, diam ac ultrices cursus,
           enim leo consequat nibh, vel ullamcorper quam ex sit amet massa.
         </p>
-        <button class="btn" type="submit">Meer zien wat ik doe?</button>
+            <a href="/wat-ik-doe"><button class="btn" type="submit">Meer zien wat ik doe?</button></a>
       </div>
     </div>
 
@@ -107,7 +107,9 @@
         </div>
         <div class="contact-container">
           <p>Neem gerust contact op!</p>
-          <button class="btn email-btn" type="submit">Email Mij</button>
+               <a href="mailto:info@nkloezeman.nl">
+                   <button class="btn email-btn" type="submit" >Email Mij</button>
+               </a>
         </div>
       </div>
     </footer>
