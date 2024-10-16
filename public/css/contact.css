@@ -5,170 +5,95 @@ body {
    color: white;
 }
 
-.page-container {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   height: 100%;
-   align-items: flex-end;
-}
 
-.container {
-   position: absolute;
-   /* Absoluut positioneren om over het plaatje te plaatsen */
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: auto auto;
-   gap: 50px;
-   width: 100%;
-   max-width: 1200px;
-   margin: 0 auto;
-   height: max-content;
-   padding: 20px;
-   box-sizing: border-box;
-   z-index: 2;
-}
-
-.container {
-   top: 50%;
-   /* Verticaal gecentreerd */
-   left: 50%;
-   /* Horizontaal gecentreerd */
-   transform: translate(-50%, -50%);
-   /* Zorg dat het midden precies in het midden ligt */
-   z-index: 2;
-   /* Zorgt ervoor dat de container bovenop het plaatje komt */
-   padding: 20px;
-   border-radius: 10px;
-   /* Ronde hoeken */
-   color: white;
-   /* Zorgt voor goed leesbare tekst */
-   width: 100%;
-   /* Pas de breedte naar wens aan */
-   max-width: 80%;
-   /* Maximale breedte */
-   box-sizing: border-box;
-   /* Inclusief padding */
-}
-
-.img-container {
-   position: relative;
-   width: 100%;
-   height: max-content;
-   display: flex;
-   justify-content: center;
-}
-
-.img-container>img {
-   width: 100%;
-   height: auto;
-   object-fit: cover;
-   /* Zorgt dat het plaatje de container netjes vult */
-   display: block;
-   padding: 100px;
-   filter: blur(8px);
-   -webkit-filter: blur(8px);
-}
-
-.contact-container {
-   grid-column: 2 / 3;
-   grid-row: 1 / 2;
-   align-self: start;
-   justify-self: end;
-   width: 100%;
-   max-width: 700px;
-   height: 480px;
+.black-container {
+   margin: 150px auto;
+   max-width: 1500px;
+   height: 450px;
    background-color: #272727;
-   border: 1px solid #979797;
-   border-radius: 22px;
-   margin: 30px;
-   font-size: 30px;
-
+   border-radius: 20px;
+   padding: 30px;
+}
+.info-flex-container {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
-   padding: 20px;
-   z-index: 2;
+   justify-content: space-around;
 }
 
-.contact-info {
-   margin: 30px;
+.text-container {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 30px;
 }
-
-.contact-info>p {
-   font-weight: lighter;
-}
-
-.contact-info>h3 {
+.text-container > h2 {
+   margin: 0;
+   font-size: 45px;
    font-weight: 600;
 }
+.text-container > p {
+   margin: 0;
+   font-size: 34px;
+   font-weight: 100;
+}
 
-.contact-buttons {
+.buttons-container {
    width: 100%;
-   height: max-content;
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: space-around;
    align-items: center;
-   margin-bottom: 35px;
 }
-
-.btn {
+.buttons-container > a > button {
+   background-color: #F4C031;
+   border: none;
    width: 235px;
    height: 75px;
-   border: none;
-   background-color: #f4c031;
-   border-radius: 22px;
    color: black;
-   font-size: 33px;
-   font-weight: 900;
-   padding: 20px;
+   border-radius: 22px;
+   font-size: 35px;
+   font-weight: 700;
 }
 
-.btn:hover {
+.buttons-container > a > button:hover {
    background-color: black;
    color: white;
    cursor: pointer;
 }
 
-.info-text-container>h3 {
-   font-size: 50px;
-   margin: 0;
+.gegevens-text-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
 }
+
 
 .info-text-container {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   justify-content: space-around;
+   font-size: 30px;
+   font-weight: 500;
 }
 
-.gegevens-container {
-   grid-column: 1 / 2;
-   grid-row: 2 / 3;
-   align-self: start;
-   justify-self: start;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
+
+
+.logo-container {
+   max-width: 395px;
+   height: max-content;
+}
+.logo-container > a > img {
+   width: 100%;
+   height: auto;
 }
 
 .facebook-container {
-   width: 100%;
-   max-width: 250px;
-   height: auto;
+   max-width: 290px;
+   height: max-content;
 }
-
-.facebook-container>a>img {
+.facebook-container > a > img {
    width: 100%;
    height: auto;
-}
-
-.info-link {
-   color: #f4c031;
-}
-
-.info-link:hover {
-   color: #bc9428;
 }

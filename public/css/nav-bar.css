@@ -19,6 +19,7 @@ nav div {
 nav div img {
    width: 65px;
    height: auto;
+   -webkit-user-drag: none;
 }
 
 nav div a {
