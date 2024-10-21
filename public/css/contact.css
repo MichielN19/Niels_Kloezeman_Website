@@ -1,99 +1,123 @@
 body {
-   background-color: #343434;
-   margin: 0;
-   font-family: "mukta mahee", sans-serif;
-   color: white;
+    background-color: #343434;
+    margin: 0;
+    font-family: "mukta mahee", sans-serif;
+    color: white;
 }
 
+.body-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+}
 
 .black-container {
-   margin: 150px auto;
-   max-width: 1500px;
-   height: 450px;
-   background-color: #272727;
-   border-radius: 20px;
-   padding: 30px;
+    margin: 150px 50px;
+    width: 100%;
+    max-width: 1500px;
+    height: 450px;
+    background-color: #272727;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid #979797;
 }
+
 .info-flex-container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .text-container {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   gap: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
 }
-.text-container > h2 {
-   margin: 0;
-   font-size: 45px;
-   font-weight: 600;
+
+.text-container>h2 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
 }
-.text-container > p {
-   margin: 0;
-   font-size: 34px;
-   font-weight: 100;
+
+.text-container>p {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 100;
 }
 
 .buttons-container {
-   width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-}
-.buttons-container > a > button {
-   background-color: #F4C031;
-   border: none;
-   width: 235px;
-   height: 75px;
-   color: black;
-   border-radius: 22px;
-   font-size: 35px;
-   font-weight: 700;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.buttons-container > a > button:hover {
-   background-color: black;
-   color: white;
-   cursor: pointer;
+.buttons-container>a>button {
+    background-color: #f4c031;
+    border: none;
+    width: 235px;
+    height: 75px;
+    color: black;
+    border-radius: 22px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.buttons-container>a>button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .gegevens-text-container {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
-
 
 .info-text-container {
-   font-size: 30px;
-   font-weight: 500;
+    font-size: 30px;
+    font-weight: 500;
 }
 
-
+.telefoon-info a {
+    color: #F4C031;
+}
+.telefoon-info a:hover {
+    color: #C29A2E;
+    cursor: pointer;
+}
+.telefoon-info a:after {
+    color: #C29A2E;
+}
 
 .logo-container {
-   max-width: 395px;
-   height: max-content;
+    max-width: 395px;
+    height: max-content;
 }
-.logo-container > a > img {
-   width: 100%;
-   height: auto;
+
+.logo-container>a>img {
+    width: 100%;
+    height: auto;
 }
 
 .facebook-container {
-   max-width: 290px;
-   height: max-content;
+    max-width: 290px;
+    height: max-content;
 }
-.facebook-container > a > img {
-   width: 100%;
-   height: auto;
+
+.facebook-container>a>img {
+    width: 100%;
+    height: auto;
 }

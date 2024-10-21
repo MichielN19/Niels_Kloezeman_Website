@@ -1,245 +1,255 @@
 body {
-   background-color: #343434;
-   margin: 0;
-   font-family: "Mukta Mahee", sans-serif;
-   color: white;
+    background-color: #343434;
+    margin: 0;
+    font-family: "Mukta Mahee", sans-serif;
+    color: white;
 }
 
 
 /*This is all the css for the main logo on the page*/
 
 .big-logo-container {
-   max-width: 100%;
-   height: 500px;
-   margin-top: 200px;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 200px;
 }
 
 .flex-container {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .big-logo {
-   max-width: 850px;
-   padding: 50px;
+    max-width: 850px;
+    padding: 50px;
 }
 
 .big-logo>img {
-   width: 100%;
-   height: auto;
-   -webkit-user-drag: none;
+    width: 100%;
+    height: auto;
+    -webkit-user-drag: none;
 }
+
 .hidden-phone {
-   display: none;
+    display: none;
 }
 
 /*Here the break line*/
 
 .grijze-lijn {
-   width: 80%;
-   height: 4px;
-   background-color: #818181;
+    width: 80%;
+    height: 4px;
+    background-color: #818181;
 }
 
 .inleiding-container {
-   width: 100%;
-   height: max-content;
+    width: 100%;
+    height: max-content;
 }
 
 .inleiding-text-container {
-   width: 75%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   text-align: center;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .inleiding-text-container>h1 {
-   font-size: 30px;
+    font-size: 30px;
 }
 
 .inleiding-text-container>p {
-   font-size: 25px;
+    font-size: 25px;
 }
 
 .kraan-plaatje-tekst-container {
-   margin: 100px auto;
-   width: 85%;
-   height: max-content;
-   gap: 40px;
+    margin: 100px auto;
+    width: 85%;
+    height: max-content;
+    gap: 40px;
 }
 
 .kraan-img-container {
-   max-width: 550px;
-   height: auto;
+    max-width: 550px;
+    height: auto;
 }
 
 .kraan-img-container>img {
-   width: 100%;
-   height: auto;
-   border-radius: 15px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 
 .tekst-container {
-   width: 80%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   gap: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 
-   text-align: left;
-   font-size: 25px;
+    text-align: left;
+    font-size: 25px;
 }
 
 .btn {
-   width: 290px;
-   height: 90px;
-   border: none;
-   background-color: #4f4f4f;
-   border-radius: 22px;
-   color: white;
-   font-size: 20px;
-   font-weight: 900;
-   padding: 20px;
+    width: 290px;
+    height: 90px;
+    border: none;
+    background-color: #4f4f4f;
+    border-radius: 22px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
 }
 
 .btn:hover {
-   background-color: black;
-   cursor: pointer;
+    background-color: black;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1150px) {
-   .kraan-plaatje-tekst-container {
-      flex-wrap: wrap;
-   }
+    .kraan-plaatje-tekst-container {
+        flex-wrap: wrap;
+    }
 
 }
 
 footer {
-   width: 100%;
-   min-height: 380px;
-   background-color: #1f1f1f;
+    width: 100%;
+    min-height: 380px;
+    background-color: #1f1f1f;
 }
 
 .footer-container {
-   width: 100%;
-   height: 100%;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   column-gap: 25px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
 }
 
 .info-tekst-container {
-   display: flex;
-   flex-direction: column;
-   gap: 50px;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 
-   font-size: 25px;
+    font-size: 25px;
 }
 
 .location-info,
 .telefoon-info {
-   width: 250px;
+    width: 250px;
 }
 
 .facebook-logo-container {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .facebook-logo-container>a>img {
-   width: 150px;
-   height: auto;
+    width: 150px;
+    height: auto;
 }
 
 .contact-container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-container>p {
-   font-size: 36px;
-   padding: 10px;
+    font-size: 36px;
+    padding: 10px;
 }
 
 .btn {
-   width: 290px;
-   height: 90px;
-   border: none;
-   background-color: #4f4f4f;
-   border-radius: 22px;
-   color: white;
-   font-size: 20px;
-   font-weight: 900;
-   padding: 20px;
+    width: 290px;
+    height: 90px;
+    border: none;
+    background-color: #4f4f4f;
+    border-radius: 22px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
 }
 
 .btn:hover {
-   background-color: black;
-   cursor: pointer;
+    background-color: black;
+    cursor: pointer;
 }
 
 .email-btn {
-   width: 300px;
-   height: 80px;
-   font-size: 35px;
+    width: 300px;
+    height: 80px;
+    font-size: 35px;
 }
 
 .telefoon-footer-container {
-   text-align: center;
-   height: 100%;
-   width: 100%;
-   display: none;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   gap: 50px;
-   padding: 20px 0;
-} 
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0;
+}
+
 .telefoon-footer-container h2 {
-   margin: 0;
+    margin: 0;
 }
+
 .contact-btn {
-   background-color: #f4c032;
-   color: black;
+    background-color: #f4c032;
+    color: black;
 }
+
 .contact-btn:hover {
-   background-color: black;
-   color: white;
+    background-color: black;
+    color: white;
 }
 
 @media screen and (max-width: 550px) {
 
-   .hidden-desktop {
-      display: none;
-   }
-   .hidden-phone {
-      display: initial;
+    .hidden-desktop {
+        display: none;
+    }
 
-   }
+    .hidden-phone {
+        display: initial;
+    }
+
+    .big-logo-container {
+        margin-top: 30px;
+    }
 }
 
 
 
 @media screen and (max-width: 1000px) {
-   .footer-container {
-      display: none;
-   }
-   footer {
-      height: max-content;
-   }
-   .telefoon-footer-container {
-      display: flex;
-   }
+    .footer-container {
+        display: none;
+    }
+
+    footer {
+        height: max-content;
+    }
+
+    .telefoon-footer-container {
+        display: flex;
+    }
 }
