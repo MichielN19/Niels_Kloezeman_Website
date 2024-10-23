@@ -66,31 +66,26 @@ nav div a:first-child {
     border-left: 2px solid rgb(0, 0, 0);
     gap: 20px;
 
-    /* animation-name: sidebarOpen; */
-    /* animation-duration: 0.7s; */
-    /* animation-iteration-count: 1; */
-    transition: right 0.7 ease;
+    animation-name: sidebarOpen;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
 
 }
 .sidebar.closed {
-    right: -300px
-    /* animation-name: sidebarClose; */
-    /* animation-duration: 0.7; */
-    /* animation-iteration-count: 1; */
-}
-.sidebar.open {
-    right: 0px;
+    animation-name: sidebarClose;
+    animation-duration: 0.7;
+    animation-iteration-count: 1;
 }
 
-/* @keyframes sidebarOpen { */
-/*     0% {right: -300px;} */
-/*     100% {right: 0px;} */
-/* } */
-/**/
-/* @keyframes sidebarClose { */
-/*     0% {right: 0px;} */
-/*     100% {right: -300px;} */
-/* } */
+@keyframes sidebarOpen {
+    0% {right: -300px;}
+    100% {right: 0px;}
+}
+
+@keyframes sidebarClose {
+    0% {right: 0px;}
+    100% {right: -300px;}
+}
 
 .sidebar a {
     width: 100%;
