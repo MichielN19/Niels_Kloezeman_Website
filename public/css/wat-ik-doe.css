@@ -5,3 +5,11 @@ body {
    color: white;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #f4c031
+}
+::selection {
+  color: black;
+  background: #f4c031;
+}
