@@ -120,4 +120,14 @@ nav div a:first-child {
     .sidebar {
         width: 100%;
     }
+
+    @keyframes sidebarOpen {
+        0% {right: 100%;}
+        100% {right: 0px;}
+    }
+
+    @keyframes sidebarClose {
+        0% {right: 0px;}
+        100% {right: 100%;}
+    }
 }
